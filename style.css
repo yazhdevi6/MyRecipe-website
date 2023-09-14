@@ -1,0 +1,138 @@
+html{
+    background-color:white ;
+}
+body{
+    background-color:rgb(166, 223, 140);
+    margin:20px;
+    width: 1000 px;
+    
+   
+}
+
+a{  
+    color:rgb(0,0,0);
+}
+
+ header{
+    padding-top:40px;
+ }
+
+ li{
+    display:inline;
+    padding:16px;
+ }
+ 
+.right{
+    padding-top:20px;
+    width:300px;
+    float:left;
+    font-size:20px;
+}
+.left{
+    padding-top:20px;
+    width:500px;
+    float:right;
+    font-size:20px;
+    
+    
+    
+    
+}
+#logo{
+padding-left:410px;  
+    color:red;
+    font-size:50px;
+    padding-bottom:10px;
+    
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+/* part 2*/
+#main{
+    
+    background-image: url("dis.jpg");
+    height:190px;
+    
+}
+#main p
+{
+    
+    padding-top:10px;
+    padding-bottom: 70px;;
+    color:rgb(55, 201, 75);
+    text-align:center;  
+    font-size:20px;
+}
+form{ 
+    
+    text-align:center;
+    
+}
+#email{
+    
+    width:200px;
+    height:20px;
+    border-color: rgb(10, 88, 45);
+}
+#click{
+    width:200px;
+    height:20px;
+    border-color: rgb(10, 88, 45);
+}
+.box{
+    padding-top: 150px;;
+    float:left;
+    
+}
+.box img{   
+   
+margin-left:85px;
+
+
+}
+
+.box p{
+   
+height:20px;    
+text-align:center;
+
+}
+/*footer*/
+nav {
+    font-size:16px;
+    text-align:center;
+}
+footer{
+    background-color:rgb(91, 167, 116);
+    height:140px;
+    padding-top:20px;
+}
+footer li {
+
+    border-right:1px solid #373735;
+
+}
+footer li:last-child{
+    border-right:none;
+}
+footer img{
+    display:block;
+    margin:0 auto;
+   
+}
